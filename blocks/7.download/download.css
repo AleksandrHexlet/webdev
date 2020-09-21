@@ -1,0 +1,67 @@
+@import url('./__content-block/download__content-block_title.css');
+@import url('./__content-block/download__content-block_subtitle.css');
+@import url('./__image/download__image.css');
+@import url('./__button-block.css/download__button-block.css');
+@import url('./__button-block.css/download__button-block_submit.css');
+@import url('./__download__button-block.css/download__button-block_check-icon.css');
+@import url('./__content-block/download__content-block.css');
+@import url('./__lead-block/download__lead-block.css');
+@import url('./__button-block.css/download__button.css');
+@import url('./__button-block.css/download__button_text.css');
+
+
+
+.download {
+    display: flex;
+    width: 1600px;
+    height: 464px;
+    background: #FFFFFF;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 
+@media all and (min-width : 1281px) and (max-width : 1441px) {
+    .download {
+
+        margin: 0 15.5% 102px;
+        padding: 0px;
+        max-width: 683px;
+    }
+}
+
+@media all and (min-width : 1024px) and (max-width : 1280px) {
+    .download {
+
+        margin: 0 11.5% 102px;
+        padding: 0px;
+        max-width: 683px;
+    }
+}
+
+@media all and (min-width : 768px) and (max-width : 1024px) {
+    .download {
+        max-width: 90vw;
+        padding: 0px;
+        margin: 0 auto 102px;
+
+    }
+}
+
+@media all and (min-width : 425px) and (max-width : 768px) {
+    .download {
+        margin: 0 auto 97px;
+        padding: 0px;
+        max-width: 90vw;
+
+    }
+}
+
+@media all and (max-width : 425px) {
+    .download {
+        max-width: 90vw;
+        margin: 0 auto 64px;
+        padding: 0px;
+    }
+} */

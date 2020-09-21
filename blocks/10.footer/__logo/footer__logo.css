@@ -1,0 +1,14 @@
+.footer__logo {
+display: flex;
+width: 44px;
+height: 45px;
+margin: auto;   
+text-decoration: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 140%;
+align-items: center;
+color: #FFFFFF;
+}

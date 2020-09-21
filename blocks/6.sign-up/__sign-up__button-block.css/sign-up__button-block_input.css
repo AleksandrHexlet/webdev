@@ -1,0 +1,12 @@
+.sign-up__button-block_input {
+    display: flex;
+    width: 340px;
+    height: 46px;
+    border: none;
+    padding: 0px;
+}
+    
+
+input::placeholder {
+  padding: 13px 24px 0px;
+}
