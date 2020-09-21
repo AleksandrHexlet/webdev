@@ -11,11 +11,10 @@ line-height: 140%;
 align-items: center;
 color: #FFFFFF;
 text-decoration: none;
-opacity: 0.8;
 }
 
-.header__logo_syllabus:hover {
+/* .header__logo_syllabus:hover {
   opacity: 0.3;
   cursor: pointer;
   text-decoration: underline;
-}
+} */
