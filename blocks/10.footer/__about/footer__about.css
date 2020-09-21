@@ -1,0 +1,9 @@
+.footer__about {
+    display: flex;
+    width: 236px;
+    height: 20px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 73px 0px 0px 160px;
+}

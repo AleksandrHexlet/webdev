@@ -1,0 +1,22 @@
+.sign-up__button-block_submit {
+display: flex;
+width: 66px;
+height: 46px;
+background-color: #00AFDB;
+border: none;
+justify-content: center;
+align-items: center;
+border: none;
+padding: 0px;
+transition:background-color 1s linear, width 1s .5s ease;
+
+}
+
+
+.sign-up__button-block_submit:hover {
+/* background: #009CC2; */
+cursor: pointer;
+background-color:#009CC2;
+color:#ffffff;
+width:75px;
+}

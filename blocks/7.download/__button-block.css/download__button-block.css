@@ -1,0 +1,9 @@
+.download__button-block {
+display: flex;
+flex-direction: row;
+padding: 0px;
+
+width: 186px;
+height: 46px;
+
+}

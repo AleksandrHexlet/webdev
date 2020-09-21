@@ -1,0 +1,22 @@
+.download__button-block_submit {
+    display: flex;
+    width: 59px;
+    height: 46px;
+    background: #009CC2;
+    border-radius: 0px;
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 0px 0px;
+    border: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.download__button-block_submit:hover {
+background: #2488a1;
+/* background: #083f4d; */
+cursor: pointer;
+}

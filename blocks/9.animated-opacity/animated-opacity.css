@@ -1,0 +1,13 @@
+.animated-opacity {
+    opacity:1;
+    transition: opacity .5s ease-in;
+    transition: color .5s ease-in,background-color 1s linear;
+    /* background-color: black; */
+}
+
+.animated-opacity:hover {
+    opacity: 0.5;
+    background-color:#0d5a6d;
+    /* background-color:#009CC2; */
+    cursor: pointer;
+}

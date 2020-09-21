@@ -1,0 +1,8 @@
+.sign-up__lead-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 406px;
+    height: 104px;
+}

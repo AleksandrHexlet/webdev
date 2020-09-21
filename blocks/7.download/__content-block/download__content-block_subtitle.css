@@ -1,0 +1,16 @@
+.download__content-block_subtitle {
+display: flex;
+width: 480px;
+height: 40px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 140%;
+align-items: center;
+text-align: center;
+margin: 0px;
+color: #4E4E4E;
+}
+

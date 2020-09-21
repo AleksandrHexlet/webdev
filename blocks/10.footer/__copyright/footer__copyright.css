@@ -1,0 +1,15 @@
+.footer__copyright {
+  width: 170px;
+  height: 20px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  color: #FFFFFF;
+  margin: 0px 160px 0px 0px;
+  opacity: 0.5;
+}
+
+

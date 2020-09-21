@@ -1,0 +1,8 @@
+.download__lead-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 402px;
+    height: 46px;
+    justify-content: space-between;
+}

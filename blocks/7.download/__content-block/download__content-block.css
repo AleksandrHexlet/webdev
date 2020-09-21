@@ -1,0 +1,10 @@
+.download__content-block {
+    display: flex;
+    width: 480px;
+    height: 88px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+    flex-direction: column;
+}
