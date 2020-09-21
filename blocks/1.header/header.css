@@ -1,0 +1,17 @@
+@import url('./__block/header__block.css');
+@import url('./__logo/header__logo.css');
+@import url('./__logo/header__logo_about.css');
+@import url('./__logo/header__logo_faq.css');
+@import url('./__logo/header__logo_projects.css');
+@import url('./__logo/header__logo_syllabus.css');
+@import url('');
+@import url('');
+@import url('');
+
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 1600px;
+    height: 95px;
+    margin: 0 auto;
+}

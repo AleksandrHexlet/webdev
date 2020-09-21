@@ -1,0 +1,8 @@
+.first-screen__socials-icons_facebook {
+width: 20px;
+height: 20px;
+background-color: black;
+border: none;
+background-image: url('../../../assets/images/icon-facebook.svg');
+border-radius: 50%;
+}

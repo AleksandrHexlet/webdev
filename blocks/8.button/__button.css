@@ -1,0 +1,17 @@
+.button__button {
+display: flex;
+flex-direction: row;
+padding: 15px 47px;
+
+width: 184px;
+height: 46px;
+color: #FFFFFF;
+background: #00AFDB;
+
+border: none;
+}
+
+.button__button:hover {
+background: #009CC2;
+cursor: pointer;
+}

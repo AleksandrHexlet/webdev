@@ -1,0 +1,13 @@
+.first-screen__subtitle {
+display: flex;
+width: 504px;
+height: 50px;
+margin: 20px auto 30px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+}

@@ -1,0 +1,18 @@
+.implement__content-block_title {
+
+display: flex;
+width: 367px;
+height: 57px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: flex-end;
+letter-spacing: 1px;
+text-transform: uppercase;
+margin: 0px 0px 20px 0px;
+color: #373737;
+
+}

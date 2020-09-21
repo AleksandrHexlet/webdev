@@ -1,0 +1,9 @@
+.community__user-card {
+    display: flex;
+    flex-direction: column;
+    width: 298px;
+    height: 175px;
+    justify-content: center;
+    align-items: center;
+    margin: 155px 139px 174px 269px;
+}

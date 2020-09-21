@@ -1,0 +1,57 @@
+@import url('./__subtitle/first-screen__subtitle.css');
+@import url('./__title/first-screen__title.css');
+@import url('./__socials-icons/socials-icons.css');
+@import url('./__setting-button/first-screen__setting-button.css');
+@import url('');
+
+.first-screen {
+    display: flex;
+    background-image:url(https://i2.wp.com/digylead.com/wp-content/uploads/2019/11/cropped-ales-nesetril-Im7lZjxeLhg-unsplash-scaled.jpg?fit=1536%2C710&ssl=1);
+    margin: 0 auto;
+    width: 1600px;
+    height: 788px;
+    background-size: cover;
+    flex-direction: column;
+}
+
+ /* @media all and (min-width : 1024px) and (max-width : 1440px) {
+    .first-screen {
+
+        min-width: 80vw;
+        padding: 0px 10px 0px;
+        max-width: 1184px;
+        margin: 0 auto 48px;
+    }
+    } 
+
+
+@media all and (min-width : 768px) and (max-width : 1024px) {
+    .first__screen {
+        max-width: 90vw;
+        padding: 0px 10px 0px;
+        min-width: 80vw;
+        margin: 0 auto 48px;
+    }
+}
+
+@media all and (min-width : 425px) and (max-width : 768px) {
+    .first__screen {
+        max-width: 90vw;
+        padding: 0px 10px 0px;
+        min-width: 80vw;
+        margin: 0 auto 48px;
+    }
+}
+
+@media all and (max-width : 425px) {
+    .first__screen {
+        max-width: 90vw;
+        padding: 0px 10px 0px;
+        min-width: 80vw;
+        margin: 0 auto 48px;
+    }
+} */
+
+        /* margin: 30px auto 48px; */
+
+

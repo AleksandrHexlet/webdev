@@ -1,0 +1,14 @@
+.header__logo_about {
+display: flex;
+width: 38px;
+height: 21px;
+margin: 38px 85px 36px 502px;   
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 140%;
+align-items: center;
+color: #FFFFFF;
+}

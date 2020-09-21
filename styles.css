@@ -1,0 +1,109 @@
+@import url('./assets/vendor/normalize.css');
+@import url('./blocks/1.header/header.css');
+@import url('./blocks/2.first-screen/first-screen.css');
+@import url('./blocks/3.idea/idea.css');
+@import url('./blocks/4.community/community.css');
+@import url('./blocks/5.implement/implement.css');
+@import url('');
+@import url('');
+@import url('');
+@import url('');
+@import url('');
+
+
+@import url('./blocks/8.button/button.css');
+
+
+
+
+@import url('../blocks/4.photo-grid/photo-grid.css');
+@import url('../blocks/5.places/places.css');
+@import url('../blocks/6.video/video.css');
+@import url('../blocks/7.additional/additional.css');
+@import url('../blocks/8.comments/comments.css');
+@import url('../blocks/9.cover/cover.css');
+@import url('../blocks/10.emblem/emblem.css');
+@import url('../blocks/11.barentsburg/barentsburg.css');
+@import url('../blocks/12.footer/footer.css');
+@import url('../blocks/13.content-title/__content-title.css');
+@import url('../blocks/14.content-subtitle/__content-subtitle.css');
+@import url('../blocks/15.animated-opacity/animated-opacity.css');
+@import url('../vendor/inter/inter.css');
+@import url('../webdev/blocks/1.header/header.css');
+@import url('');
+@import url('');
+
+.html {
+    background-color: red;
+}
+
+.page {
+
+    font-family: Roboto, Arial, sans-serif;
+    margin: auto;
+    overflow: hidden;
+    width: 1600px;
+    height: 4182px;
+    background: #FFFFFF;
+  
+}
+
+
+
+@media all and (min-width : 1024px)and (max-width : 1440px) {
+    .page {
+
+        margin: auto;
+        overflow: hidden;
+
+    }
+}
+
+@media all and (min-width : 768px) and (max-width : 1024px) {
+    .page {
+
+
+        margin: auto;
+        overflow: hidden;
+    }
+}
+
+@media all and (min-width : 425px) and (max-width : 768px) {
+    .page {
+
+        margin: auto;
+        overflow: hidden;
+
+    }
+}
+
+@media all and (max-width : 425px) {
+    .page {
+
+        margin: auto;
+        overflow: hidden;
+    }
+}
+
+@media all and (max-width : 320px) {
+    .page {
+
+        margin: auto;
+        overflow: hidden;
+    }
+}
+
+blockquote {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+@media all and (min-width : 320px) and (max-width : 769px) {
+    blockquote {
+        margin: 0;
+        padding: 0;
+        order: 1;
+    }
+}

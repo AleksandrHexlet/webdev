@@ -1,0 +1,21 @@
+.header__logo_syllabus {
+display: flex;
+margin: 38px 100px 37px 0px;       
+width: 53px;
+height: 20px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 140%;
+align-items: center;
+color: #FFFFFF;
+text-decoration: none;
+opacity: 0.8;
+}
+
+.header__logo_syllabus:hover {
+  opacity: 0.3;
+  cursor: pointer;
+  text-decoration: underline;
+}

@@ -1,0 +1,14 @@
+@import url('./first-screen__socials-icons_mail.css');
+@import url('./first-screen__socials-icons_facebook.css');
+@import url('./first-screen__socials-icons_instagram.css');
+@import url('./first-screen__socials-icons_telegram.css');
+
+.socials-icons {
+width: 170px;
+height: 20px;
+display: flex;
+margin: 0px auto 90px;
+flex-direction: row;
+justify-content: space-between;
+
+}

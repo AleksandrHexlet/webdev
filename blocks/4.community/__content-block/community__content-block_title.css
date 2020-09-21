@@ -1,0 +1,17 @@
+.community__content-block_title {
+
+    display: flex;
+    width: 170px;
+    height: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #373737;
+    margin: 20px auto 10px;
+}

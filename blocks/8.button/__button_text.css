@@ -1,0 +1,19 @@
+.button__button_text {
+width: 125px;
+height: 16px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+
+flex: none;
+order: 0;
+align-self: center;
+
+}

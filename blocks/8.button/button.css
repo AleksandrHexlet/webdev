@@ -1,0 +1,6 @@
+@import url('./__button.css');
+@import url('./__button_text.css');
+
+.button {
+    display: flex;
+}

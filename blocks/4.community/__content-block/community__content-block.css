@@ -1,0 +1,8 @@
+.community__content-block {
+display: flex;
+width: 894px;
+height: 278px;
+flex-direction: column;
+margin: 82px 0px 140px;
+align-items: flex-end;
+}
