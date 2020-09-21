@@ -15,24 +15,6 @@
 
 
 
-
-@import url('../blocks/4.photo-grid/photo-grid.css');
-@import url('../blocks/5.places/places.css');
-@import url('../blocks/6.video/video.css');
-@import url('../blocks/7.additional/additional.css');
-@import url('../blocks/8.comments/comments.css');
-@import url('../blocks/9.cover/cover.css');
-@import url('../blocks/10.emblem/emblem.css');
-@import url('../blocks/11.barentsburg/barentsburg.css');
-@import url('../blocks/12.footer/footer.css');
-@import url('../blocks/13.content-title/__content-title.css');
-@import url('../blocks/14.content-subtitle/__content-subtitle.css');
-@import url('../blocks/15.animated-opacity/animated-opacity.css');
-@import url('../vendor/inter/inter.css');
-@import url('../webdev/blocks/1.header/header.css');
-@import url('');
-@import url('');
-
 .html {
     background-color: red;
 }
@@ -48,7 +30,7 @@
   
 }
 
-
+/* 
 
 @media all and (min-width : 1024px)and (max-width : 1440px) {
     .page {
@@ -95,4 +77,4 @@
 
 
 
-
+ */
