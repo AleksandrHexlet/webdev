@@ -6,7 +6,9 @@
 @import url('./__slider/community__slider.css');
 @import url('./__user-card/community__user-card.css');
 @import url('./__user-card/');
-@import url('');
+@import url('./__slider/__slider_index.css');
+@import url('./__slider/__slider_number.css');
+@import url('./__slider/__slider_slash.css');
 @import url('');
 @import url('');
 

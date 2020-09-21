@@ -3,10 +3,19 @@
     width: 340px;
     height: 46px;
     border: none;
-    padding: 0px;
+    padding: 0px 0px 0px 12px;
 }
     
 
 input::placeholder {
-  padding: 13px 24px 0px;
+  padding: 13px 0px 0px;
 }
+input:focus:invalid {
+  box-shadow: 0 0 7px 1px red;
+  outline: none;
+}
+input:valid {
+  box-shadow: 0 0 1px 1px white;
+  border:none
+}
+

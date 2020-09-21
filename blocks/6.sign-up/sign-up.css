@@ -2,6 +2,7 @@
 @import url('./__image/sign-up__image.css');
 @import url('./__sign-up__button-block.css/sign-up__button-block.css');
 @import url('./__sign-up__button-block.css/sign-up__button-block_input.css');
+@import url('./__sign-up__button-block.css/sign-up__error.css');
 @import url('./__sign-up__button-block.css/sign-up__button-block_submit.css');
 @import url('./__sign-up__button-block.css/sign-up__button-block_check-icon.css');
 @import url('./__lead-block/sign-up__lead-block.css');

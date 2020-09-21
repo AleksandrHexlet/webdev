@@ -1,0 +1,15 @@
+.community__slider_number {
+display: flex;
+width: 11px;
+height: 18px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 100%;
+
+align-items: center;
+text-align: right;
+
+color: #373737;
+}

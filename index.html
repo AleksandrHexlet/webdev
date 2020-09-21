@@ -20,24 +20,25 @@
     <div class="page">
         <section class="first-screen">
             <header class="header">
-                <a href="./assets/images/header_about.svg" class="header__logo_about">About</a>
-                <a href="./assets/images/header_syllabus.svg" class="header__logo_syllabus">Syllabus</a>
-                <img src="./assets/images/header_logo.svg" alt="logo" class="header__logo">
-                <a href="./assets/images/header_projects.svg" class="header__logo_projects">projects</a>
-                <a href="./assets/images/header_FAQ.svg" class="header__logo_faq">FAQ</a>
+                <a href="./assets/images/header_about.svg" class="header__logo_about animated-opacity">About</a>
+                <a href="./assets/images/header_syllabus.svg" class="header__logo_syllabus animated-opacity">Syllabus</a>
+                <img src="./assets/images/header_logo.svg" alt="logo" class="header__logo animated-opacity">
+                <a href="./assets/images/header_projects.svg" class="header__logo_projects animated-opacity">projects</a>
+                <a href="./assets/images/header_FAQ.svg" class="header__logo_faq animated-opacity">FAQ</a>
 
             </header>
             <h1 class="first-screen__title">your life is WebDev</h1>
             <h2 class="first-screen__subtitle">Whatever the approach to development may be, the final program must
                 satisfy some
                 fundamental properties</h2>
-            <button class="button__button animated-opacity first-screen__setting-button"><span class="button__button_text">GET
+            <button class="button__button animated-opacity first-screen__setting-button"><span
+                    class="button__button_text">GET
                     STARTED</span></button>
             <nav class="socials-icons">
-                <button class="first-screen__socials-icons_mail"></button>
-                <button class="first-screen__socials-icons_facebook"></button>
-                <button class="first-screen__socials-icons_instagram"></button>
-                <button class="first-screen__socials-icons_telegram"></button>
+                <button class="first-screen__socials-icons_mail animated-opacity"></button>
+                <button class="first-screen__socials-icons_facebook animated-opacity"></button>
+                <button class="first-screen__socials-icons_instagram animated-opacity"></button>
+                <button class="first-screen__socials-icons_telegram animated-opacity"></button>
 
             </nav>
 
@@ -47,12 +48,14 @@
             <section class="idea">
                 <div class="idea__idea-block">
                     <div class="idea__content-block">
-                        <h1 class="idea__content-block_title">Rappresent your idea with a smart Design</h1>
+                        <h1 class="idea__content-block_title"><strong>Rappresent your idea with a smart Design</strong>
+                        </h1>
                         <h2 class="idea__content-block_subtitle">Tasks accompanying and related to programming include:
                             testing, debugging, source code maintenance, implementation of
                             build systems, and management of derived artifacts, such as the machine code of computer
                             programs.</h2>
-                        <button class="button__button animated-opacity"><span class="button__button_text">GET STARTED</span></button>
+                        <button class="button__button animated-opacity"><span class="button__button_text">GET
+                                STARTED</span></button>
                     </div>
                     <img class="idea__image" src="./assets/images/idea-image.svg" alt="Фото людей">
                 </div>
@@ -69,12 +72,22 @@
                 </div>
 
                 <div class="community__content-block">
-                    <div class="community__slider"><span class="community__slider_opacity">
-                            < </span>&nbsp; 1/5 &nbsp;></div>
+                    <div class="community__slider"><span class="community__slider_index animated-opacity">
+                            < </span>&nbsp;
+                                <span class="community__slider_number">
+                                    1&nbsp;</span>
+                                <span class="community__slider_slash ">
+                                    /&nbsp;</span>
+                                <span class="community__slider_number">
+                                    5&nbsp;</span>
+                                <span class="community__slider_index animated-opacity">
+                                    ></span>
+                    </div>
                     <img class="community__picture" src="assets/images/community-image.svg" alt="Фото">
                 </div>
 
             </section>
+
 
             <section class="implement">
                 <div class="implement__implement-block">
@@ -84,7 +97,8 @@
                         <h2 class="implement__content-block_subtitle">These might be considered part of the programming
                             process, but often the term software development is used for this
                             larger process with the term programming, implementation</h2>
-                        <button class="button__button animated-opacity"><span class="button__button_text">LEARN MORE</span></button>
+                        <button class="button__button animated-opacity"><span class="button__button_text">LEARN
+                                MORE</span></button>
                     </div>
                 </div>
             </section>
@@ -94,9 +108,14 @@
                     <h1 class="sign-up__content-block_title">sign up for our newsletter</h1>
 
                     <div class="sign-up__button-block">
-                        <input class="sign-up__button-block_input" placeholder="E-mail"></input>
+                        <form>
+                        <input class="sign-up__button-block_input" type="email" name="email"  placeholder="E-mail" required />
+                            <!-- pattern="((\w){1,}\.)?([\w-]{1,}@[\w]{0,}\.[\w]{2,3}(\.[\w]{2,3})?)"  -->
+                        <span class="sign-up__error">e-mail в формате: name-surname@yandex.ru</span>
+                        </form>
                         <button class="sign-up__button-block_submit animated-opacity">
-                            <img class="sign-up__button-block_check-icon" src="./assets/images/check-icon.svg">
+                            <img class="sign-up__button-block_check-icon animated-opacity"
+                                src="./assets/images/check-icon.svg">
                         </button>
                     </div>
                 </div>
@@ -111,19 +130,21 @@
                         binary notation.</h2>
                 </div>
                 <div class="download__lead-block">
-                <div class="download__button-block">
-                    <button class="download__button animated-opacity"><span class="download__button_text">APPLE STORE</span>
-                    </button>
-                    <button class="download__button-block_submit">
-                        <img class="download__button-block_check-icon" src="./assets/images/apple-icon.svg">
-                    </button>
+                    <div class="download__button-block">
+                        <button class="download__button animated-opacity"><span class="download__button_text">APPLE
+                                STORE</span>
+                        </button>
+                        <button class="download__button-block_submit">
+                            <img class="download__button-block_check-icon" src="./assets/images/apple-icon.svg">
+                        </button>
                     </div>
-                <div class="download__button-block">
-                    <button class="download__button animated-opacity"><span class="download__button_text">PLAY MARKET</span>
-                    </button>
-                    <button class="download__button-block_submit">
-                        <img class="download__button-block_check-icon" src="./assets/images/android-icon.svg">
-                    </button>
+                    <div class="download__button-block">
+                        <button class="download__button animated-opacity"><span class="download__button_text">PLAY
+                                MARKET</span>
+                        </button>
+                        <button class="download__button-block_submit">
+                            <img class="download__button-block_check-icon" src="./assets/images/android-icon.svg">
+                        </button>
                     </div>
                 </div>
             </section>
@@ -131,20 +152,20 @@
         </main>
 
         <section class="footer">
-   
-    <section class="footer">
-        div
-    <div class="footer__about">
-        <a class="footer__link animated-opacity footer__size_credits" href="https://rs.school/">Credits</a>
-        <p class="footer__line animated-opacity"></p>
-        <a class="footer__link animated-opacity footer__size_privacy" href="https://rs.school/">Privacy</a>
-        <p class="footer__line animated-opacity"></p>
-        <a class="footer__link animated-opacity footer__size_teams" href="https://rs.school/">Our teams</a>
-        </div>
-        <img src="./assets/images/header_logo.svg" alt="logo" class="footer__logo">
 
-        <p class="footer__copyright">© 2020. by Alex</p>
-    </section>
+            <section class="footer">
+                div
+                <div class="footer__about">
+                    <a class="footer__link animated-opacity footer__size_credits" href="https://rs.school/">Credits</a>
+                    <p class="footer__line animated-opacity"></p>
+                    <a class="footer__link animated-opacity footer__size_privacy" href="https://rs.school/">Privacy</a>
+                    <p class="footer__line animated-opacity"></p>
+                    <a class="footer__link animated-opacity footer__size_teams" href="https://rs.school/">Our teams</a>
+                </div>
+                <img src="./assets/images/header_logo.svg" alt="logo" class="footer__logo animated-opacity">
+
+                <p class=" animated-opacity footer__copyright ">© 2020. by Alex</p>
+            </section>
 
     </div>
 </body>
